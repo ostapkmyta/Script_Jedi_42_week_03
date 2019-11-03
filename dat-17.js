@@ -24,3 +24,11 @@ const tailAndHead = a => {
 
 
 //third task 
+
+const blackAndWhite = arr => {
+  if(!Array.isArray(arr)) return 'It\'s a fake array';
+  if(arr.includes(13) && arr.includes(5)) return 'It\'s a black array';
+  else return 'It\'s a white array';
+}
+
+
